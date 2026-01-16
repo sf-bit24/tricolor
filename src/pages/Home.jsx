@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import BentoGridExperience from '../components/home/BentoGridExperience';
+import LayeringShowcase from '../components/home/LayeringShowcase';
 import SafetyInteractive from '../components/home/SafetyInteractive';
 import EcoSection from '../components/home/EcoSection';
 import CSRSection from '../components/CSRSection';
@@ -29,7 +30,7 @@ const Home = () => {
             <main>
                 <Hero />
                 <BentoGridExperience />
-                <SafetyInteractive />
+                <LayeringShowcase />
                 <EcoSection />
                 <CSRSection />
                 <ArchiveGallery />
