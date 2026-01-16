@@ -1,0 +1,17 @@
+body {
+  background-color: white;
+  color: #0A0A0A;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -0.025em;
+  color: #002395;
+}

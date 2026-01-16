@@ -1,0 +1,46 @@
+.tech-values {
+    padding: var(--spacing-xl) 2rem;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    text-align: center;
+}
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tech-card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 3rem 2rem;
+    border-radius: 12px;
+    transition: transform var(--transition-fast), background var(--transition-fast);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.tech-card:hover {
+    transform: translateY(-10px);
+    background: rgba(255, 255, 255, 0.1);
+    border-color: var(--color-primary);
+}
+
+.tech-icon {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+.tech-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-white);
+}
+
+.tech-card p {
+    color: #CCC;
+    font-size: 1rem;
+    line-height: 1.6;
+}

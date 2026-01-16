@@ -1,0 +1,30 @@
+:root {
+  /* Brand Colors - Tricolor Modernized */
+  --color-primary: #002395; /* Deep French Blue */
+  --color-secondary: #ED2939; /* French Red */
+  --color-white: #FFFFFF;
+  --color-black: #0A0A0A;
+  --color-grey-light: #F5F5F7;
+  --color-grey-dark: #333333;
+  --color-text-main: #1A1A1A;
+  --color-text-light: #FFFFFF;
+
+  /* Functional Colors */
+  --color-bg: #FFFFFF;
+  --color-accent: #ED2939;
+  
+  /* Typography */
+  --font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-family-heading: 'Outfit', sans-serif; /* A bit more technical/modern */
+  
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 8rem;
+
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-smooth: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}

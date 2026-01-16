@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #002395;
+  --color-secondary: #ED2939;
+  --color-dark: #0A0A0A;
+  --color-charcoal: #1A1A1A;
+  --color-off-white: #FAFAFA;
+  --color-pearl: #F5F5F7;
+
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-display: "Inter", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-off-white);
+    color: var(--color-charcoal);
+    line-height: 1.6;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    line-height: 1.2;
+  }
+}
+
+/* Utilities for compatibility if needed, though Tailwind v4 handles most via classes */
